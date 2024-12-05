@@ -20,6 +20,8 @@ Of course, feel free to use ChatGPT custom instructions, static prompts, etc.
   * After solve, tweaked style to promote `lodash` use, explicit test cases, and separation of logic from UI; trimmed repetitive language.
 * Day 3: ⭐⭐ https://claude.site/artifacts/3fee33db-a708-4839-89c0-2959481ac36f
   * After solve, some follow-up style explorations showed Claude getting very confused on `do_not_mul(5,5)` examples -- the curse of a just-smart-enough AI taking instructions too literally, or out of context! Maybe we got lucky that today's first samples avoided this pitfall. I'm curious to see if future puzzles will include any explicit anti-LLM flak. (I assume not, since the point of AoC is learning + self-directed fun... but it sure seems like the leaderboards are losing integrity. Looking forward, maybe we'll see a bigger culture of screen-captured speedruns.)
-* Day 4: ⭐ ⭐ (*) https://claude.site/artifacts/f5edfce1-fda7-443b-afce-fe74c7a1a36b
+* Day 4: ⭐⭐ (*) https://claude.site/artifacts/f5edfce1-fda7-443b-afce-fe74c7a1a36b
   * On Part 2, Claude took 4 code analyzer blocks to fully debug its algorithm. (It's rare in my experience that broken code gets fixed after three failed attempts, so this was a pretty impressive feat.) Then Claude hit a token output limit while finishing transcribing the solution into a web app. So I spent a third turn saying "Continue," and it emitted the final HTML tags. I'm counting this as a moral success, but it technically violates my pre-specified terms.
   * After solve, updated style to provide more debugging advice, more functional programming guidance, and an example that uses lodash
+* Day 5: ⭐⭐ https://claude.site/artifacts/5fa3423f-5dbb-41a9-a52e-0bba8c6fcd68
+  * No notes
