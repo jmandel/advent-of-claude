@@ -25,3 +25,7 @@ Of course, feel free to use ChatGPT custom instructions, static prompts, etc.
   * After solve, updated style to provide more debugging advice, more functional programming guidance, and an example that uses lodash
 * Day 5: ⭐⭐ https://claude.site/artifacts/5fa3423f-5dbb-41a9-a52e-0bba8c6fcd68
   * No notes
+* Day 6: Zero stars https://claude.site/artifacts/9ee7b9c7-a33e-403d-afa9-0cc5d9bb7a39
+  * At several points, Claude created infinite loops in the JS REPL, saw the timeout error, and figured "Great, that code's fine let's proceed to make a web app now." I've mitigated this with a style update.
+  * Moreover, Claude had a really hard time internalizing some of the constraints here. About half the time, it insisted on treating obstacles and grid boundaries the same (instead of treating obstacles as things that make you turn, and grid boundaries as termination conditions for the path). I wound up providing specific hints for Part 1 and Part 2
+    * Example: "Careful that you don't treat grid-exiting like a boundary. And improve perf by only x,y positions on the default path as the potential insertion points for the new obstacle." 
