@@ -29,3 +29,6 @@ Of course, feel free to use ChatGPT custom instructions, static prompts, etc.
   * At several points, Claude created infinite loops in the JS REPL, saw the timeout error, and figured "Great, that code's fine let's proceed to make a web app now." I've mitigated this with a style update.
   * Moreover, Claude had a really hard time internalizing some of the constraints here. About half the time, it insisted on treating obstacles and grid boundaries the same (instead of treating obstacles as things that make you turn, and grid boundaries as termination conditions for the path). I wound up providing specific hints for Part 1 and Part 2
     * Example: "Careful that you don't treat grid-exiting like a boundary. And improve perf by only x,y positions on the default path as the potential insertion points for the new obstacle." 
+* Day 7: ⭐⭐ https://claude.site/artifacts/6507ffb5-dc75-4a44-9837-ed7a3379471c
+  * Solved in with no trouble (although I got distracted and accidentally submitted my Part 2 solution before the leaderboard was full -- d'oh)
+  * Part 2 solution was annoyingly slow, so I followed up with "Try recursive algo where you bail if the interim value is too high" to get the app above
