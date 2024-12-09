@@ -34,3 +34,4 @@ Of course, feel free to use ChatGPT custom instructions, static prompts, etc.
   * Part 2 solution was annoyingly slow, so I followed up with "Try recursive algo where you bail if the interim value is too high" to get the app above
 * Day 8: ⭐⭐ https://claude.site/artifacts/0259a9d6-e541-4949-ab71-5bad2da3aaf4
   * Algorithm is N²K² for NxN grid with K antennas in the biggest group. This could easily be reduced by a factor of N, but in practice it runs instantaneously on the supplied input
+* Day 9: ⭐⭐ https://claude.site/artifacts/fbe5c368-98c5-46b4-a92a-e35742920575
