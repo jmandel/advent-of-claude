@@ -39,3 +39,7 @@ Of course, feel free to use ChatGPT custom instructions, static prompts, etc.
 * Day 11: ⭐ https://claude.site/artifacts/55e0f02f-4594-45e8-ae67-ecabeb8c41f9
   * Failed to pursue an efficient strategy for Part 2 -- one star only
   * Asked o1 to fix, for the solution above 
+* Day 12: ⭐
+  * Like yesterday; I let o1 solved part 2 (two turns, given 1 round of debug output) and had Claude put it back into an artifact.
+    ![image](https://github.com/user-attachments/assets/46745ef3-c499-41c1-94de-602e1e7765e7)
+  * Sadly, after passing tests, it failed on my personal input: "That's not the right answer; your answer is too low."
