@@ -36,3 +36,6 @@ Of course, feel free to use ChatGPT custom instructions, static prompts, etc.
   * Algorithm is N²K² for NxN grid with K antennas in the biggest group. This could easily be reduced by a factor of N, but in practice it runs instantaneously on the supplied input
 * Day 9: ⭐⭐ https://claude.site/artifacts/fbe5c368-98c5-46b4-a92a-e35742920575
 * Day 10: ⭐⭐ https://claude.site/artifacts/f8d5d315-8cd3-4602-8854-f4ad77560151
+* Day 11: ⭐ https://claude.site/artifacts/55e0f02f-4594-45e8-ae67-ecabeb8c41f9
+  * Failed to pursue an efficient strategy for Part 2 -- one star only
+  * Asked o1 to fix, for the solution above 
