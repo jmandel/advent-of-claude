@@ -41,3 +41,6 @@ Of course, feel free to use ChatGPT custom instructions, static prompts, etc.
   * Asked o1 to fix, for the solution above 
 * Day 12: ⭐ https://claude.site/artifacts/20881e52-6a4e-4790-97ea-88c192b97ee8
   * Claude really struggled with the wall following. Even with a very explicit prompting about the algorithm, I had carefully debug and explain what was going wrong.
+* Day 13: ⭐
+* Day 14: ⭐
+* Day 15: Zero stars
